@@ -13,15 +13,13 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.container {
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(114, 110, 110);
 }
 
 .App-link {
@@ -35,4 +33,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.quantity_minus,
+.quantity_plus {
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 0 2px;
+  padding: 2px 20px 12px 20px;
+  border-radius: 5px;
+}
+
+.quantity_minus span,
+.quantity_plus span {
+  font-weight: bold;
+}
+
+.quantity_input {
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+
+.quantity_minus span,
+.quantity_plus span {
+  font-weight: bold;
+}
+
+.quantity_input {
+  width: 50px;
+  height:35px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 2px 0px 2px;
+  padding: 5px;
 }
